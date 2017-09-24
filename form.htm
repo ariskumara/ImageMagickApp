@@ -27,12 +27,12 @@
       <form class="form-signin" action="/" method="POST">
         <h2 class="form-signin-heading">Write on animated GIFs</h2>
         <p>  
-          <label for="gifurl" class="sr-only">Please add .gif URL</label>
-          <input type="text" name="gifurl" class="form-control" placeholder=".gif URL" required autofocus>
+          <label for="gifurl" class="sr-only">.gif URL</label>
+          <input type="text" name="gifurl" class="form-control" placeholder="Please type .gif URL" required autofocus>
         </p>
         <p>
-          <label for="text" class="sr-only">Please Annotate with text</label>
-          <input type="text" name="text" class="form-control" placeholder="Annotate with text" required>
+          <label for="text" class="sr-only">Annotate with text</label>
+          <input type="text" name="text" class="form-control" placeholder="Plaese annotate with text" required>
         </p>
         <p>
           <button class="btn btn-lg btn-block" id="go" type="submit" onClick="document.getElementById('go').innerHTML = 'Performing MAGICK. Please wait...'">$ make gif</button>
